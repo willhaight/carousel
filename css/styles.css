@@ -37,6 +37,7 @@ nav p {
   margin-right: 2%;
   padding-left: 5%;
   padding-right: 5%;
+  margin-top: 15px;
   width: 40%;
 }
 .card .card-body {
@@ -45,9 +46,18 @@ nav p {
 
 .theCards {
   display: flex;
+  justify-content: center;
   width: 90%;
   position: relative;
   left: 1%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #070794;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  background-color: #010144;
 }
 
 @media only screen and (max-width: 800px) {
@@ -55,6 +65,10 @@ nav p {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .card-body p, .card-body h5 {
+    font-size: 2em;
   }
 }
 
