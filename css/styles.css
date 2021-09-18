@@ -12,10 +12,16 @@ body div {
   right: 1%;
 }
 
+nav {
+  background-color: #95989e;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
 nav p {
   border-bottom: 2px solid #fff;
-  position: relative;
-  right: 4%;
 }
 
 .carousel-item img {
