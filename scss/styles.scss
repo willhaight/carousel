@@ -1,5 +1,5 @@
 body {
-    background-color:#000;
+    background-color:rgb(26, 25, 25);
     color:white;
     display:flex;
     flex-direction: column;
@@ -69,4 +69,12 @@ body {
 .card-body p, .card-body h5 {
     font-size: 2em;
 }
+}
+.modal-body {
+    color:black;
+}
+.modal-content {
+    color:black;
+    margin-top:300px;
+    padding-left:10px;
 }

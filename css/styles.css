@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: #1a1919;
   color: white;
   display: flex;
   flex-direction: column;
@@ -76,6 +76,15 @@ nav p {
   .card-body p, .card-body h5 {
     font-size: 2em;
   }
+}
+.modal-body {
+  color: black;
+}
+
+.modal-content {
+  color: black;
+  margin-top: 300px;
+  padding-left: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
