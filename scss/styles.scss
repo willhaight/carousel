@@ -4,6 +4,8 @@ body {
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    font-size:1em;
     div {
         position:relative;
         right:1%;
@@ -27,4 +29,28 @@ body {
     width:100%;
     display: flex;
     justify-content: center;
+}
+.card {
+    color:#000000;
+    margin-left:2% ;
+    margin-right:2% ;
+    padding-left: 5%;
+    padding-right: 5%;
+    width:40%;
+    .card-body {
+        width:100%;
+    }
+}
+.theCards {
+    display: flex;
+    width:90%;
+    position: relative;
+    left:1%;
+}
+@media only screen and(max-width:800px) {
+.theCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
